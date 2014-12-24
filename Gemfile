@@ -6,11 +6,14 @@ gem 'jquery-rails'
 group :production do
   gem 'pg'
   gem 'turbolinks'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
   gem 'sqlite3'
 end
+
+gem 'unicorn'
 
 group :assets do
   gem 'sass-rails', '~> 5.0'
