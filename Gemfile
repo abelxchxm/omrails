@@ -5,9 +5,11 @@ gem 'jquery-rails'
 
 group :production do
   gem 'pg'
-  gem 'turbolinks'
   gem 'rails_12factor'
 end
+
+gem 'turbolinks'
+gem 'jbuilder', '~> 2.0'
 
 group :development, :test do
   gem 'sqlite3'
