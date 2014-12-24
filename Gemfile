@@ -5,6 +5,7 @@ gem 'jquery-rails'
 
 group :production do
   gem 'pg'
+  gem 'turbolinks'
 end
 
 group :development, :test do
