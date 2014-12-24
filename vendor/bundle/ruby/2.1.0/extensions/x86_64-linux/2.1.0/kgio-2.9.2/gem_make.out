@@ -51,5 +51,5 @@ compiling poll.c
 linking shared-object kgio_ext.so
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 kgio_ext.so ./.gem.20141223-27874-1wcn11o
+/usr/bin/install -c -m 0755 kgio_ext.so ./.gem.20141220-13625-acallq
 installing default kgio_ext libraries

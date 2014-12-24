@@ -17,5 +17,5 @@ compiling linux_tcp_info.c
 linking shared-object raindrops_ext.so
 
 make "DESTDIR=" install
-/usr/bin/install -c -m 0755 raindrops_ext.so ./.gem.20141223-27874-1cfthbn
+/usr/bin/install -c -m 0755 raindrops_ext.so ./.gem.20141220-17659-ss06o7
 installing default raindrops_ext libraries
