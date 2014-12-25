@@ -1,2 +1,22 @@
-<%= link_to "Home", root_path %>
-<%= link_to "About", about_path %>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">One Month Rails</a>
+      <a type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </a>
+    </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><%= link_to "Home", root_path %></li>
+          <li><%= link_to "About", about_path %></li>
+        </ul>
+        <ul class="nav navbar-nav pull-right">
+          <li><%= link_to "Login", '#' %></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
