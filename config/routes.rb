@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'users/create'
+
+  devise_for :users
   get 'about' => 'pages#about'
 
   root :to => 'pages#home'
