@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :pins
+
   get 'users/create'
 
   devise_for :users
