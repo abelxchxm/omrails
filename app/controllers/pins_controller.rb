@@ -30,7 +30,7 @@ class PinsController < ApplicationController
   end
 
   def update
-    @pin=current_user.pins.update(pin_params)
+    @pin.update(pin_params)
     respond_with(@pin)
   end
 
